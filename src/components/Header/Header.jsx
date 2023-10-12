@@ -5,13 +5,14 @@ const Header = (title) => {
   return (
     <>
       <div className="w-full bg-slate-900 p-2 flex items-center justify-start gap-4 origin-left transition duration-700">
-        <h1 className="relative text-5xl font-bold
-        after:absolute
-        after:top-0
-        after:right-0
-        after:w-1
-        after:h-full
-        after:bg-violet-700">
+        <h1 className="relative text-5xl font-bold z-10
+        before:absolute
+        before:top-0
+        before:right-0
+        before:w-[3px]
+        before:h-full
+        before:bg-pink-800
+        beore:-z-10">
           <span className="bg-clip-text 
                     text-transparent 
                     bg-gradient-to-r 
